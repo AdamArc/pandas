@@ -10,6 +10,7 @@ requires = [
     "numpy==1.16.0; python_version=='3.6' and platform_system=='AIX'",
     "numpy==1.16.0; python_version>='3.7' and platform_system=='AIX'",
 ]
+build-backend = 'setuptools.build_meta'
 
 [tool.black]
 target-version = ['py36', 'py37', 'py38']
